@@ -8,17 +8,6 @@ function setup (){
                    callback: gotData,
                    simpleSheet: true } );
 
-  function createButton() {
-  var element = document.createElement("button");
-  element.appendChild(document.createTextNode("Click Me!"));
-  var page = document.getElementById("btn");
-  page.appendChild(element);
-
-  console.log(element);
-}
-
-var button = createButton('generate madlib');
-button.mousePressed(generate);
 }
 
 function generate (){
