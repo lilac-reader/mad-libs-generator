@@ -46,7 +46,7 @@ questions -= 1;
 questionsLeft = ' [' + questions + ' questions left]';
 var adjective5 = prompt('Please type an adjective' + questionsLeft);
 alert('All done. Ready for the message?');
-var sentence = "<h2>Are you fed up with " +plural_noun;
+var sentence = "<p>Are you fed up with " +plural_noun;
 sentence += '? Do you  ' + verb1;
 sentence += ' but get frustrated that the ' + noun1;
 sentence += ' doesn’t work? Then this ' + adjective1;
@@ -62,5 +62,5 @@ sentence += ' when you’ve got this! The best part? Order right now and I’ll 
 sentence += ' with your order! That’s right! You can get this this amazing product plus  your free gift for only $' +number1;
 sentence += '!!! Try it risk free for ' + number2;
 sentence += ' days! If you’re not completely ' + adjective5;
-sentence += ' we give you your money back! Guaranteed!</h2>';
+sentence += ' we give you your money back! Guaranteed!</p>';
 document.write(sentence);
