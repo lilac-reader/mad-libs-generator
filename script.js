@@ -1,4 +1,5 @@
-var questions = 16;
+ <script>
+    var questions = 16;
 var questionsLeft = ' [' + questions + ' questions left]';
 var plural_noun = prompt('Please type a plural noun' + questionsLeft);
 questions -= 1;
@@ -64,3 +65,4 @@ sentence += '!!! Try it risk free for ' + number2;
 sentence += ' days! If you’re not completely ' + adjective5;
 sentence += ' we give you your money back! Guaranteed!</p>';
 document.write(sentence);
+    </script>
